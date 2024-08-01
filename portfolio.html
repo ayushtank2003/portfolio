@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+            publicKey: "cJq35Al3gbzpMN1WH",
+        });
+   })();
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="container"> 
+            <div class="navbar">
+
+                <div class="logo-container">
+                    <img src="./image/a letter.jpg" class="logo">
+                    <div class="logo-text">yush Tank</div>
+                </div>
+
+                <div class="nav-item">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contectme">Contect Me</a></div>
+                </div>
+             </div>
+        </div>
+
+        <div class="hero-section">
+            <div class="faded-text">Ayush Tank</div>
+
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hi!! Ayush Tank</div>
+               
+                <div class="hero-section-heading hero-section-sub-heading">
+                       I am a <span class="role"></span>
+                </div>
+
+                <div class="hero-section-description">
+                    I am a Full-Stack Developer and here is my portfolio website. 
+                    Here you'll learn about my journey as a frontend developer.
+                </div>
+
+                <div class="btn-pink" id="btn"><a href="mailto: ayushtaank2001@gmail.com">Hire me</a> </div>
+
+            </div>
+
+            <div class="hero-section-right">
+                <div class="absolute icon icon-dots">
+                    <img src="./image/dots.png" alt="">
+                </div>
+                <div class="absolute icon icon-zigzag">
+                    <img src="./image/zig zags.png" alt="">
+                </div><div class="absolute icon icon-cube">
+                    <img src="./image/cube.png" alt="">
+                </div><div class="absolute icon icon-plus">
+                    <img src="./image/plus.png" alt="">
+                </div><div class="absolute icon icon-circle">
+                    <img src="./image/circle.png" alt="">
+                </div>
+                <div class="user-image">
+                    <img src="./image/portfolio website.jpg"alt="">
+                </div>
+            </div>
+         </div>  
+         
+         <div class="project-section" id="projects">
+            <h2 class="page-header">project</h2>
+    
+            <div class="project-container">
+                <div class="project-card" id="project1">
+    
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                            <img class="project-skills" src="./image/HTML.png" alt="">
+                            <img class="project-skills" src="./image/CSS.png" alt="">
+                            <img class="project-skills" src="./image/Javascript.svg" alt="">
+                            <img class="project-skills" src="./image/Tailwind.png" alt="">
+                        </div>
+                        <h2 class="project-heading">Study Sage</h2>
+                        <div class="project-subheading">This is a project in which we gave suggestion 
+                            of college according to student intrest
+                        </div>
+                        <div class="btn-group">
+                            <!-- <button class="btn-pink btn-project">Read More</button> -->
+                            <a href="https://github.com/ayushtank2003/carrer-guiding-app">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>    
+                            </a>
+                        </div>
+    
+                    </div>
+                </div>
+                
+                <div class="project-card" id="project2">
+    
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content  project-content-right">
+                        <div class="project-skills-container">
+                        
+                            <img class="project-skills" src="./image/HTML.png" alt="">
+                            <img class="project-skills" src="./image/CSS.png" alt="">
+                            <img class="project-skills" src="./image/Javascript.svg" alt="">
+                            
+                        </div>
+                        <h2 class="project-heading">Coffee Mug</h2>
+                        <div class="project-subheading">A platform where we can callculate the amount 
+                            after appling filters. Helpful for shop owners.
+                        </div>
+                        <div class="btn-group">
+                            <a href="https://github.com/ayushtank2003/coffee-mug">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>    
+                            </a>
+                        </div>
+                    </div>
+                   
+                </div> 
+    
+                <!-- <div class="project-card" id="project3">
+    
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skills-container">
+                        
+                            <img class="project-skills" src="./image/HTML.png" alt="">
+                            <img class="project-skills" src="./image/CSS.png" alt="">
+                            <img class="project-skills" src="./image/Javascript.svg" alt="">
+                            <img class="project-skills" src="./image/Express.png" alt="">
+                            <img class="project-skills" src="./image/NextJsCircle.png" alt="">
+                            <img class="project-skills" src="./image/Tailwind.png" alt="">
+                            <img class="project-skills" src="./image/NodeJs.svg" alt="">
+                            <img class="project-skills" src="./image/MongoDB.svg" alt="">
+                            <img class="project-skills" src="./image/Redux.svg" alt="">
+                            <img class="project-skills" src="./image/Vercel.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">Isha Tattva</h2>
+                        <div class="project-subheading">A Website for interior
+                             designer to showcase her works and samples
+                        </div>
+                        <div class="btn-group"> 
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>    
+                            </a>
+                            <a href="">
+                            <i title="live link" class="fa-solid fa-link icon"></i>   
+                            </a>
+                        </div>
+                    </div>
+                   
+                </div>  -->
+    
+                <!-- <div class="project-card" id="project4">
+    
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skills-container">
+                        
+                            <img class="project-skills" src="./image/HTML.png" alt="">
+                            <img class="project-skills" src="./image/CSS.png" alt="">
+                            <img class="project-skills" src="./image/Javascript.svg" alt="">
+                            <img class="project-skills" src="./image/Express.png" alt="">
+                            <img class="project-skills" src="./image/NextJsCircle.png" alt="">
+                            <img class="project-skills" src="./image/Tailwind.png" alt="">
+                            <img class="project-skills" src="./image/NodeJs.svg" alt="">
+                            <img class="project-skills" src="./image/MongoDB.svg" alt="">
+                            <img class="project-skills" src="./image/Redux.svg" alt="">
+                            <img class="project-skills" src="./image/Vercel.svg" alt="">
+                        </div>
+                        <h2 class="project-heading">Granit</h2>
+                        <div class="project-subheading">A architectural website to plan
+                             your building or home (Hebrew Language)
+                        </div>
+                        <div class="btn-group"> 
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>    
+                            </a>
+                            <a href="">
+                            <i title="live link" class="fa-solid fa-link icon"></i>   
+                            </a>
+                        </div>
+                    </div>
+                   
+                </div>  -->
+            </div>
+               
+            
+        </div>
+    
+        <div id="skills" class="container skills-container">
+            <div Skills class="skills-faded-text">Skills</div>
+    
+            <div class="skills-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and 
+                    <br>
+                    My Tech Stack
+                </h2>
+    
+                <div class="skill-subheading">
+                    <p>
+                        Hi Everyone My name is Ayush Kumar Tank am a Full-Stack Developer skilled in HTML, 
+                        CSS, JavaScript, and Node.js. Expert in 
+                        creating scalable web applications and 
+                        solving complex problems. Passionate 
+                        about translating requirements into 
+                        technical solutions and eager to 
+                        contribute to innovative projects
+                    </p>
+                    
+                </div>
+            </div>
+    
+            <div class="skills-container-right">
+    
+                <img src="./image/HTML.png" alt="" class="skills-logo">
+                <img src="./image/CSS.png" alt="" class="skills-logo">
+                <img src="./image/Javascript.svg" alt="" class="skills-logo">
+                <img src="./image/React.png" alt="" class="skills-logo">
+                <img src="./image/NodeJs.svg" alt="" class="skills-logo">
+                <img src="./image/Bootstrap.svg" alt="" class="skills-logo">
+                <img src="./image/Express.png" alt="" class="skills-logo">
+                <img src="./image/Git.svg" alt="" class="skills-logo">
+                <img src="./image/Github.svg" alt="" class="skills-logo">
+                <img src="./image/MongoDB.svg" alt="" class="skills-logo">
+    
+    
+            </div>
+        </div>
+
+        <div class="contactus-form-container" id="contectme">
+            <div class="container">
+                <h1 class="contactus-heading">Contact Me</h1> 
+
+                <h3 class="contactus-sub-heading">
+                    Questions, Thoughts, Or Just Want To Say Hello?
+                </h3>
+
+                <div class="contactus-form-container">
+                    <form class="form" action="">
+                        <div class="formfield-container">
+                           
+                            <input class="formfield"
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="enter your name" required>
+
+                            <input class="formfield"
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="enter your email address" required>
+                            
+                            <input class="formfield"
+                            type="number"
+                            name="number"
+                            id="number"
+                            placeholder="enter your contact no" required>
+
+                            <input class="formfield"
+                            type="text"
+                            name="subject"
+                            id="subject"
+                            placeholder="enter your subject" required>
+
+                            <textarea name="message"
+                            id="message" cols="30" rows="10"
+                            class="formfield formfield-textarea"
+                            placeholder="enter your message"></textarea>
+                            
+
+                            <div>
+                                <button type="submit" class="btn-pink" id="submit-btn" onclick="sendEmail()">
+                                    Send message <i class="submit-icon fa-solid fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="footer-faded-text">Ayush Tank</div>
+                    
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#projects">Project</a>
+                        </div>
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+                        <div>
+                            <a href="#contectme">Contact ME</a>
+                        </div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <a href="https://www.linkedin.com/in/ayush-kumar-tank-192918256/"><i class="fa-brands fa-linkedin icon"></i></a>
+                        <a href="https://github.com/ayushtank2003"><i class="fa-brands fa-github icon"></i></a>
+                        <a href="https://www.instagram.com/ayush__inc?utm_source=qr&igsh=b3ViNnBpMHI4dnFr"><i class="fa-brands fa-instagram icon"></i></a>
+                    </div> 
+
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Frontend Developer",
+                "Coder",
+                "Graphic Designer",
+                "Program Designer",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Read more button functionality for project cards
+        document.querySelectorAll('.btn-project').forEach(button => {
+            button.addEventListener('click', function () {
+                const projectContent = this.parentElement.parentElement.querySelector('.project-subheading');
+                if (projectContent.style.display === 'none' || projectContent.style.display === '') {
+                    projectContent.style.display = 'block';
+                    this.textContent = 'Read Less';
+                } else {
+                    projectContent.style.display = 'none';
+                    this.textContent = 'Read More';
+                }
+            });
+        });
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach((value, key) => data[key] = value);
+
+            // You can replace the alert with your form submission logic
+            alert(JSON.stringify(data, null, 2));
+            this.reset();
+        })
+    </script>
+
+
+    
+</body>
+</html>
